@@ -1,0 +1,66 @@
+body {
+    font-family: 'Times New Roman', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Left Block - Black */
+.left-block {
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500px;
+    height: 800px;
+    padding: 40px;
+}
+
+/* Right Block - White */
+.right-block {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: calc(100% - 200px);
+    height: 100%;
+    padding: 10px;
+}
+
+/* Designer Elements */
+.designer-element {
+    padding: 0px;
+    margin: 0px;
+}
+
+.designer-element:hover {
+    border-color: red; /* Border color on hover */
+}
+
+/* Publish and Preview Links */
+.publish-preview {
+    text-align: right;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.publish-preview a {
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.publish-preview a:first-child {
+    background-color: green; /* Background color for "Publish" button */
+    color: white; /* Text color for "Publish" button */
+}
+
+.publish-preview a:last-child {
+    background-color: white; /* Background color for "Preview" button */
+    color: black; /* Text color for "Preview" button */
+}
+
+/* Dotted Line Below Design Mode */
+.split-line {
+    border-top: 1px dotted #000;
+    margin-top: 70%;
+}
